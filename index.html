@@ -14,9 +14,9 @@
 </head>
 <div id="banner"></div>
 <header>
-    <div class="container">
-      <img src="icon.png" id="icon"/> 
-      <button class="button-49" role="button"><a href="index.html" >Jack Cool</a></button>
+    <div id="icon_container" >
+      <img src="icon2.png" id="icon"/> 
+      <span class="button-49" role="button"><a href="index.html" >Jack Cool</a></span>
   </div>
     <ul>
       <li><a href="jackcool_course_studied.html" >Course studied</a></li>
@@ -31,21 +31,30 @@
     <h1>About Me</h1>
     <hr>
   </div>
-  <div class="box" id="content">
-    <img src="icon.png" id="myface"/>
+  <div class="content_box">
+    <div id="myface_container"><img src="icon.png" id="myface"/></div>
     <div class="self-intro">
       <h2>Koo Ho yin,<span id="sign">Jack</span></h2>
       <p>UG Computer Science-HKUST</p>
       <h3>Contact:</h3>
       <div class="box">
-        <a href = "mailto:hykoo@connect.ust.hk" target="_blank"><img src="HKUST.png" class="contact"></a>
-          <img src="discord.png" class="contact">
-        <a href = "https://www.instagram.com/jackkoo6/" target="_blank"><img src="instagram.png" class="contact"></a>
-        <a href = "https://github.com/jackkoo1207" target="_blank"><img src="github.png" class="contact"></a>
+        <div class="image_container"><a href = "mailto:hykoo@connect.ust.hk" target="_blank"><img src="HKUST.png" class="contact"></a></div>
+        <div class="image_container"><img src="discord.png" class="contact"></div>
+        <div class="image_container"><a href = "https://www.instagram.com/jackkoo6/" target="_blank"><img src="instagram.png" class="contact"></a></div>
+        <div class="image_container"></div><a href = "https://github.com/jackkoo1207" target="_blank"><img src="github.png" class="contact"></a></div>
       </div>
-      
+      <!-- 
+      <div class="container2">
+        <div class="stack" style="--stacks: 3;" >
+          <span style="--index: 0;" class="apple">Jack Cool</span>
+          <span style="--index: 1;" class="apple">Jack Cool</span>
+          <span style="--index: 2;" class="apple">Jack Cool</span>
+        </div>
+        <span class="right"></span>
+      </div>-->
     </div>
   </div>
+ 
   <script src="script.js"></script>
 </body>
 </html>
