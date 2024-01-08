@@ -32,13 +32,16 @@ html{
   #name{
     text-align: center;
     font-size:25px;
-    color:white;
     font-family: Pacifico;
+  }
+  #name a{
+    color:white;
+    text-decoration: none;
     transition-property: color;
     transition-duration: 750ms;
-    text-decoration: none;
   }
-  #name:hover{
+
+  #name a:hover{
     color:#278405;
   }
   #icon_container{
@@ -88,27 +91,13 @@ html{
     margin:0;
     font-family: 'Courier New';
     text-align:center;
-    width:20%;
+    width:max(20%,200px);
     border: 4px solid black;
   }
-  .button-49{
-    font-size: 25px;
-    font-family: Pacifico;
-    color: #fff;
-
-  }
-  .button-49 a{
-    text-decoration: none;
-    color: #fff;
-    transition-property: color;
-    transition-duration: 500ms;
-  }
-  .button-49 a:hover{
-    color:#278405;
-  }
+  
   @media only screen and (max-width: 600px) {
     html{
-      --header-height:120px;
+      --header-height:150px;
       --icon-height:70px;
     }
     #icon_container{
@@ -124,7 +113,7 @@ html{
     }
     ul{
       width:90%;
-      font-size:1.5em;
+      font-size:1.3em;
     }
   }
   

@@ -24,7 +24,7 @@
   }
   #sign{
     display: inline-block;
-    font-family: 'Brush Script MT';
+    font-family: 'Brush Script MT',cursive;
     font-size:larger;
     transition-duration: 750ms;
     filter: drop-shadow(8px 5px 0.2rem rgba(231, 199, 176, 0.7));
@@ -117,7 +117,9 @@
 @media only screen and (max-width: 600px) {
   .content_box{
     display: flex;
+    flex-direction:column;
     justify-content: center;
+    align-items: center;
     margin:0;
   }
 }
