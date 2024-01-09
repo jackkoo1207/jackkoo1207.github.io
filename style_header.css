@@ -3,7 +3,7 @@ html{
   justify-content: center;
   align-items: flex-start;
  width:100%;
- --banner-height:150px;
+ --banner-height:130px;
  --header-height:50px;
  --icon-height:50px;
  --icon-width:40%;
@@ -11,7 +11,7 @@ html{
 #banner{
   height:var(--banner-height);
   width:100%;
-  background-image: url("banner.gif");
+  overflow:hidden;
   text-align: center;
 }
  header{
@@ -33,15 +33,13 @@ html{
     text-align: center;
     font-size:25px;
     font-family: Pacifico;
-  }
-  #name a{
     color:white;
-    text-decoration: none;
     transition-property: color;
     transition-duration: 750ms;
   }
 
-  #name a:hover{
+  #name:hover{
+    cursor: pointer;
     color:#278405;
   }
   #icon_container{
@@ -75,16 +73,17 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size:1.3em;
     font-family: monospace;
     list-style-type: none
   }
-  ul a{
+  ul li{
     color:white;
     transition-property: color;
     transition-duration: 750ms;
-    text-decoration: none;
   }
-  ul a:hover{
+  ul li:hover{
+    cursor: pointer;
     color:#278405;
   }
   h1{
@@ -113,7 +112,7 @@ html{
     }
     ul{
       width:90%;
-      font-size:1.3em;
+      font-size:1.2em;
     }
   }
   
